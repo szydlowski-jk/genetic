@@ -32,10 +32,10 @@ document.addEventListener('visibilitychange', function() {
 
 function loop () {
     if (! focused) {
-        document.title =  "PAUSED"
+        document.title =  "Genetic - PAUSED"
         return
     } else {
-        document.title = "RUNNING"
+        document.title = "Genetic - RUNNING"
     }
 
     ctx.fillStyle = "#333333"
