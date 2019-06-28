@@ -14,4 +14,12 @@ class Specimen {
     constructor () {
         genes = new Genotype()
     }
+
+    update () {
+
+    }
+
+    draw () {
+
+    }
 }
